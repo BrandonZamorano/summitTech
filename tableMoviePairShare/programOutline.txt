@@ -1,0 +1,20 @@
+
+Our program/class is a movie streaming app. So, we have a class for a user's account.
+
+A user account has:
+	int Account Number
+	string Customer Name
+	Subscription Type (BASIC, STANDARD, PREMIUM)
+		Basic Plan - $10 - SD - 5 movies
+		StandardPlan - $15 - HD - 15 movies
+		Premium Plan - $20 - Ultra HD - Unlimited movies
+	#MoviesCheckedOut
+	Balance
+	Store the movies he has checked out.
+
+User is going to be able to:
+	add balance
+	set their subscription plan
+	check out movies
+		*But cannot check out more than their subscription plan allows.
+	remove movies
